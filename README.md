@@ -11,4 +11,6 @@ It's a Signup Page which is made by using html and css
 * Time 😂
 * Live Server
 
-# <a href="https://sidebar-by-rushi.netlify.app/"> Live Demo </a> #
+## <a href="https://sidebar-by-rushi.netlify.app/"> Live Demo </a> #
+
+![Screenshot (46)](https://github.com/RushiCoder/Sidebar/assets/114005115/c9a35479-34b8-4f9a-9bd8-f31330829be9)
