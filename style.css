@@ -1,0 +1,236 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	align-items: center;
+	background: #86e1d1;
+	align-items: center;
+	justify-content: center;
+}
+#container{
+	display: flex;
+	flex-direction: column;
+	width: 200px;
+	height: auto;
+	border-radius: 10px;
+	background: #2f387B;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.2);
+	transition: 1s;
+}
+#container.active{
+	display: flex;
+	width: 70px;
+}
+
+#container .brand{
+	display: flex;
+	width: 100%;
+	height: 40px;
+	padding: 0 10px;
+	margin: 10px 0;
+	align-items: center;
+	justify-content: space-between;
+}
+#container.active .brand{
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+#container .brand .logo{
+	display: flex;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	align-items: center;
+	justify-content: center;
+	background: yellow;
+}
+#container.active .brand .logo,#container.active .brand h3,#container.active .search #search,#container.active .navbar ul li a span,#container.active .user img,#container.active .user .name{
+	display: none;
+}
+
+#container .brand .logo ion-icon{
+	display: flex;
+	color: #191919;
+	font-size: 20px;
+}
+#container .brand h3{
+	display: flex;
+	font-size: 20px;
+	color: #191919;
+}
+#container .brand a{
+	display: flex;
+	width: 30px;
+	height: 30px;
+	align-items: center;
+	justify-content: center;
+}
+#container.active .brand a,#container.active .brand a ion-icon{
+	display: flex;
+	width: 80%;
+}
+
+#container .brand a ion-icon{
+	display: flex;
+	color: #191919;
+	font-size: 30px;
+	background: transparent;
+}
+
+#container .search{
+	display: flex;
+	width: 90%;
+	height: 40px;
+	margin: 10px 0;
+	border: none;
+	border-radius: 6px;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.2);
+}
+#container.active .search{
+	background: #f2efeffe;
+}
+
+#container .search ion-icon{
+	display: none;
+}
+#container.active .search ion-icon{
+	display: flex;
+	width: 90%;
+	font-size: 20px;
+}
+
+#container .search #search{
+	display: flex;
+	width: 100%;
+	height: 100%;
+	border: none;
+	font-weight: bold;
+	padding-left: 20px;
+	background: #f1f1f1;
+	border-radius: 6px;
+}
+#container .navbar{
+	display: flex;
+	width: 90%;
+	height: auto;
+	margin: 10px 0;
+	align-items: center;
+	justify-content: center;
+}
+#container.active .navbar ul{
+	display: flex;
+	width: 90%;
+	align-items: center;
+	justify-content: center;
+}
+
+#container .navbar ul{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+	align-items: flex-start;
+	justify-content: center;
+}
+#container .navbar ul li{
+	display: flex;
+	height: 40px;
+	width: 100%;
+	margin: 5px 0;
+	border-radius: 7px;
+}
+#container .navbar ul li a{
+	display: flex;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+	border-radius: 7px;
+	align-items: center;
+	justify-content: left;
+}
+#container.active .navbar ul li a{
+	align-items: center;
+	justify-content: center;
+}
+
+#container .navbar ul li a span{
+	display: flex;
+	color: #191919;
+	font-size: 14px;
+	border-radius: 7px;
+}
+#container .navbar ul li a ion-icon{
+	display: flex;
+	font-size: 20px;
+	margin: 0 15px;
+	color: #191919;
+}
+#container .navbar ul li a:hover,#container .navbar ul li a:hover span,#container .navbar ul li a:hover ion-icon{
+	font-weight: bold;
+	color: deepskyblue;
+	background: #f1f1f1;
+}
+#container .user{
+	display: flex;
+	width: 100%;
+	height: 70px;
+	background: #c9ebef;
+	align-items: center;
+	justify-content: center;
+}
+#container.active .user{
+	width: 80%;
+	height: 100%;
+	margin: 10% 0;
+	border-radius: 10px;
+}
+
+#container .user img{
+	display: flex;
+	width: 40px;
+	height: 40px;
+	margin: 10px 0;
+	margin-left: 10px;
+	border-radius: 5px;
+}
+#container .user .name{
+	display: flex;
+	flex-direction: column;
+	width: 90px;
+	height: 60%;
+	padding: 5px;
+	margin: 0 10px;
+}
+#container .user .name h5{
+	display: flex;
+	font-size: 12px;
+	
+}
+#container .user .name span{
+	display: flex;
+	font-size: 10px;
+}
+#container .user a{
+	display: flex;
+	height: 40px;
+	width: 40px;
+	align-items: center;
+	justify-content: center;
+	border-radius: 7px;
+}
+#container .user a ion-icon{
+	display: flex;
+	color: #191919;
+	font-size: 30px;
+}
