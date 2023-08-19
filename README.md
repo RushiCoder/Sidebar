@@ -1,4 +1,4 @@
-# Sidebar: 
+# Sidebar : 
 It's a Sidebar which is made by using html and css
 
 ## languages :
